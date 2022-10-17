@@ -1,1 +1,159 @@
 /* Your CSS goes here */
+/* Your CSS goes here */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #536872;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hd{
+    color: white;
+    margin-left: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+nav{
+    margin-right: 60px;
+
+}
+nav a{
+    color: white;
+    text-decoration:none ;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;    
+}
+nav a:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+.front{
+    background-color: #fa8072;
+    width: 100%;
+    height:170px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#tasta{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    padding: 10px;
+}
+#loca{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+}
+.main{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.same{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   align-items: center;
+    background-color: #f0f8ff;
+    height: 300px;
+    margin: 20px;
+}
+.same h3{
+    font-size: 25px;
+    padding: 10px;
+    
+}
+.same p{
+    font-size: 18px;
+    text-align: justify;
+    line-height: 1.5;   
+    margin: 30px; 
+}
+
+.container{
+
+    display: flex;
+    flex-direction: column;
+  
+}
+.iskumid{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    line-height: 1.5;
+    padding: 20px;
+    font-size: 20px;
+
+}
+#diff{
+    padding: 20px;
+    font-size: 20px;
+}
+.rule{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+address{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    line-height: 1.5;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+
+}
+#addres{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+   
+
+.footer{
+    background-color: #536872;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+#fh{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    
+    margin-left: 30px;
+}
+ .anchar{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    text-decoration: none;
+    
+}
+.subfooter{
+    width: 100%;
+    height: 50px;
+    background-color: #fa8072;
+}
+#supfoter{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    text-align: center;
+    padding: 10px;
+}
